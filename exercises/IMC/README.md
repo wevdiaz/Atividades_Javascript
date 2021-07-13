@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="imagem animada sobre o cálculo do IMC" src="https://github.com/wevdiaz/Atividades_Javascript/tree/main/exercises/IMC/assets/img">
+    <img alt="imagem animada sobre o cálculo do IMC" src="https://github.com/wevdiaz/Atividades_Javascript/blob/main/exercises/IMC/assets/img/imc.gif">
 <p>
 
 ### Tabela IMC
