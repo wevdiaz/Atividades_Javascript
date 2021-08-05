@@ -6,4 +6,10 @@
  Exercícios com javascript
  
  **IMC**
+
  Aqui um exercício calculando o IMC utilizando JS, HTML e CSS. [Veja aqui](https://github.com/wevdiaz/Atividades_Javascript/tree/main/exercises/IMC)
+
+ **Timer**
+
+ Criando um contador - [Veja Aqui](https://github.com/wevdiaz/Atividades_Javascript/tree/main/exercises/Timer)
+
