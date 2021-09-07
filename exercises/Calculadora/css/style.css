@@ -1,0 +1,89 @@
+:root {
+    --color-base: #581d7a;
+    --color-btnNum: #8f30c2;
+    --color-btn: #6f567d;
+    --color-hover: #d382ff;
+
+    --color-text: white;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    background-color: #F5EEF8;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10vh;
+    color: var(--color-base);
+}
+
+#calculate {
+    width: 300px;
+    margin: 32px auto;
+    padding: 24px 16px 32px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #aaa;
+    box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.5);
+}
+
+#display input {
+    width: 100%;
+    padding: 8px 2px;
+    text-align: right;
+    font-size: 1.7em;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: lightyellow;
+}
+
+#calculate table {
+    width: 100%;
+    margin-top: 8px;  
+    border-spacing: 8px;  
+}
+
+table tr td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 35px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    
+    background-color: var(--color-btnNum);
+    color: var(--color-text);
+}
+
+
+table tr td.btn-del,
+table tr td.btn-operator,
+table tr td.btn-point,
+table tr td.btn-equa,
+table tr td.btn-clear {
+    background-color: var(--color-btn);
+    transition: background-color 250ms;
+}
+
+table tr td:hover {
+    background-color: var(--color-hover);
+    color: var(--color-base);
+}
+
+
+.positive {
+    color: limegreen;
+}
+
+.negative {
+    color: red;
+}
+
