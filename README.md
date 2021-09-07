@@ -21,3 +21,9 @@
 
  Criando uma tabuada - [Veja Aqui](https://github.com/wevdiaz/Atividades_Javascript/tree/main/exercises/Tabuada)
 
+ ***
+
+ **Calculadora**
+
+ Criando uma calculadora simples - [Veja Aqui](https://github.com/wevdiaz/Atividades_Javascript/tree/main/exercises/Calculadora)
+
