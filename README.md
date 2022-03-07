@@ -27,3 +27,7 @@
 
  Criando uma calculadora simples - [Veja Aqui](https://github.com/wevdiaz/Atividades_Javascript/tree/main/exercises/Calculadora)
 
+ **Background Color**
+
+ Trocando a cor de fundo com botões - [Veja Aqui]()
+
