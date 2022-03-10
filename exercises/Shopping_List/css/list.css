@@ -1,0 +1,130 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.50%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'BhuTuka Expanded One', cursive;
+    background-color: azure;
+
+}
+
+.box {
+    width: 40rem;
+    margin: 3.2rem auto;
+    padding: 1.6rem;
+    background-color: white;
+
+    box-shadow: 2px 2px 6px -1px rgba(0, 0, 0, 0.1);
+    border-radius: .4rem;
+}
+
+.box p {
+    margin: 3.2rem 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.box input {
+    height: 3.5rem;
+    width: 20rem;
+    padding: .4rem .8rem;
+    border-radius: .8rem;
+    font-size: 2rem;
+    line-height: 30px;
+    outline: none;
+}
+
+.box input:focus {
+    box-shadow: 1px 1px 8px -1px rgba(30, 143, 255, 0.6);
+}
+
+.box button {
+    border: none;
+    height: 3.5rem;
+    width: 10rem;
+    margin-left: .8rem
+    ;
+    border-radius: .8rem;
+    font-weight: bold;
+    line-height: 26px;
+
+    color: white;
+    background-color: dodgerblue;
+
+    transition: all 250ms ease-in;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background-color: deepskyblue;
+}
+
+.box .field {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 50rem;
+    margin: 3.2rem auto;
+    padding: .8rem;
+    background-color: lemonchiffon;
+    border-radius: 0 2rem 0 2rem;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 1.6rem;
+}
+
+ul li {
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: bold;
+    list-style-type: none;
+    padding-left: 1.6rem;
+    padding-bottom: .8rem;
+    color: blue;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li button {
+    width: 2rem;
+    height: 2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    background-color: #e84118;
+    color: white;
+    cursor: pointer;
+
+    transition: all 200ms ease-in-out;
+}
+
+ul li button:hover {
+    background-color: #eb9a86;
+    color: #e84118;
+}
+
+section > p {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 1.6rem;
+}
+
