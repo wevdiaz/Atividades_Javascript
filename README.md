@@ -33,3 +33,8 @@
 
  Trocando a cor de fundo com botões - [Veja Aqui](https://github.com/wevdiaz/Atividades_Javascript/tree/main/exercises/Background_Color)
 
+ ***
+
+ **Shopping_List**
+ Criando uma lista de compra simples dinâmica - [Veja Aqui](https://github.com/wevdiaz/Atividades_Javascript/tree/main/exercises/Shopping_List)
+
