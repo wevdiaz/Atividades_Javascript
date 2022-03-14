@@ -1,0 +1,93 @@
+:root {
+    --font-roboto: 'Roboto', sans-serif;
+
+    --color-bg: #01a3a4;
+    --color-button: #10ac84;
+    --color-hover: #1dd1a1;
+    --color-valid: #4cd137;
+    --color-error: #c23616;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.50%;
+}
+
+body {
+    font-family: var(--font-roboto);
+    font-size: 1.6rem;
+    background-color: var(--color-bg);
+}
+
+section {
+    width: 50rem;
+    height: 20rem;
+    margin: 20vh auto;
+    padding: .8rem;
+    background-color: white;
+    border-radius: 8px;
+
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.5);
+
+    display: grid;
+    place-items: center;
+}
+
+.field input {
+    height: 32px;
+    width: 20rem;
+    border-radius: 8px;
+    line-height: 26px;
+    font-size: 2rem;
+    padding: .8rem;
+    outline: none;
+    color: #555;
+}
+
+.field input:focus {
+    box-shadow: 1px 1px 8px 1px var(--color-bg);
+    border: transparent;
+}
+
+.field button {
+    border: none;
+    height: 4.2rem;
+    width: 10rem;
+    margin-left: 1.6rem;
+
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: .8rem;
+
+    color: white;
+    background-color: var(--color-button);
+
+    transition: background-color 250ms ease-in-out;
+    cursor: pointer;
+}
+
+.field button:hover {
+    background-color: var(--color-hover);
+}
+
+section .valid,
+section .error {
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--color-valid);
+    text-align: center;
+
+    margin-top: .4rem;
+}
+
+section .error {
+    color: var(--color-error);
+}
+
