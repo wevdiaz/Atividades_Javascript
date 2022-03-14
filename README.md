@@ -38,3 +38,8 @@
  **Shopping_List**
  Criando uma lista de compra simples dinâmica - [Veja Aqui](https://github.com/wevdiaz/Atividades_Javascript/tree/main/exercises/Shopping_List)
 
+ ***
+
+ **Validating_CPF**
+ Criando um vericação simples se o CPF é válido - [Veja Aqui](https://github.com/wevdiaz/Atividades_Javascript/tree/main/exercises/Validating_CPF)
+
