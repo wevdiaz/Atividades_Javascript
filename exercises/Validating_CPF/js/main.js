@@ -1,6 +1,9 @@
 class ValidateCPF {
     constructor(cpf) {
         this.cpf = cpf;
+        this.fieldAlert = document.querySelector(".field");
+        this.input = document.querySelector(".field #cpf");
+
         this.init();
     }
 
@@ -9,11 +12,21 @@ class ValidateCPF {
     }
 
     validate() {
-        console.log(this.cpf);
+        this.clearMessage(this.fieldAlert);
+
         const cpfClear = this.cpf.replace(/\D+/g, "");
+
+        if (cpfClear === "") {
+            this.input.focus();
+            return this.createDiv(this.fieldAlert, "Insira um CPF para verificação", "error");
+        }
+
         const newCPF = this.createNewCPF(cpfClear);
+        const result = cpfClear === newCPF ? "CPF Válido" : "CPF Inválido";
+        const classAlertField = result === "CPF Válido" ? "valid" : "error";
+
+        this.createDiv(this.fieldAlert, result, classAlertField);
         
-        return cpfClear === newCPF ? console.log("CPF Válido") : console.log("CPF Inválido");
     }
 
     createNewCPF(cpfFormated) {
@@ -35,6 +48,22 @@ class ValidateCPF {
 
         const digit = 11 - (total % 11);
         return digit <= 9 ? String(digit) : "0";
+    }
+
+    createDiv(fieldAlert, message, oneClass){
+        const div = document.createElement("div");
+        div.innerHTML = message;
+        div.classList.add(oneClass);
+
+        fieldAlert.appendChild(div);
+    };
+
+    clearMessage(fieldAlert) {
+        const message = fieldAlert.querySelector("div");
+
+        if (message) {
+            message.remove();
+        }
     }
 }
 
