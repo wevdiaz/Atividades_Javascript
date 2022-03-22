@@ -1,0 +1,225 @@
+:root {
+    --color-bg-header: #fff;
+
+    --color-red: #f53b57;
+    --color-green: #05c46b;
+    --color-yellow: #ffd32a;
+    --color-blue: #0fbcf9;
+    --color-orange: #f0932b;
+    --color-anil: #4834d4;
+    --color-violet: #be2edd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.50%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.6rem;
+}
+
+header {
+    padding: 2.4rem 3.2rem;
+    width: 100vw;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+}
+
+.logo {
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.logo img {
+    width: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+nav #mobile-menu {
+    opacity: 0;
+    visibility: hidden;    
+}
+
+nav ul li a {
+    color: white;
+    transition: all 200ms ease;
+}
+
+nav ul li + li {
+    margin-left: 2rem;
+}
+
+.card {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.card .text {
+    font-size: 4rem;
+    color: white;
+    width: 60rem;
+}
+
+
+
+/* --- BG Sections ---*/
+#bg-red {
+    background-color: var(--color-red);
+}
+
+#bg-orange {
+    background-color: var(--color-orange);
+}
+
+#bg-yellow {
+    background-color: var(--color-yellow);
+}
+
+#bg-green {
+    background-color: var(--color-green);
+}
+
+#bg-blue {
+    background-color: var(--color-blue);
+}
+
+#bg-indigo {
+    background-color: var(--color-anil);
+}
+
+#bg-violet {
+    background-color: var(--color-violet);
+}
+
+/* --- Liks Jover ---*/
+
+li[data-color="orange"]:hover a {
+    color: var(--color-orange);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+li[data-color="red"]:hover a {
+    color: var(--color-red);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+li[data-color="yellow"]:hover a {
+    color: var(--color-yellow);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+li[data-color="green"]:hover a {
+    color: var(--color-green);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+li[data-color="blue"]:hover a {
+    color: var(--color-blue);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+li[data-color="anil"]:hover a {
+    color: var(--color-anil);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+li[data-color="violet"]:hover a {
+    color: var(--color-violet);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+/* === Button Back ===*/
+.back-top span {
+    font-size: 5rem;
+    background-color: var(--color-bg-header);
+    color: black;
+
+    position: fixed;
+    top: 650px;
+    right: 20px;
+
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.back-top span:hover {
+    background-color: black;
+    color: white;
+}
+
+.back-top.hidden {
+    display: none;
+}
+
+
+@media (max-width: 800px) {
+    
+    nav ul {
+        font-size: 2.5rem;
+    }
+
+    .card .text {
+        font-size: 3.5rem;        
+    }
+}
+
+
+@media (max-width: 700px) {
+    
+    nav ul {       
+        display:none;            
+    }    
+
+    nav #mobile-menu {
+        opacity: 1;
+        visibility: visible;      
+    }
+
+
+    nav #mobile-menu span {        
+        font-size: 4rem;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+
+        transition: all 250ms ease-in-out;
+    }
+
+    nav #mobile-menu span:hover {
+        color: black;
+    }
+
+    .card .text {
+        font-size: 3rem;
+        width: 45rem;
+    }
+}
