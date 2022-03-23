@@ -15,14 +15,14 @@ function closeMenu() {
     nav.classList.remove("active");
 
     const body = document.querySelector("body");
-    body,style.overflowY = "auto";
+    body.style.overflowY = "auto";
 }
 
 window.addEventListener("scroll", (e) => {
     const btnBack = document.querySelector(".back-top");
     const position = window.scrollY;
     console.log(position);
-    if(position >= 758.75) {
+    if(position >= 750) {
         btnBack.classList.remove("hidden");
     } else {
         btnBack.classList.add("hidden");
