@@ -43,3 +43,9 @@
  **Validating_CPF**
  Criando um vericação simples se o CPF é válido - [Veja Aqui](https://github.com/wevdiaz/Atividades_Javascript/tree/main/exercises/Validating_CPF)
 
+
+ ***
+
+ **Scroll_Section**
+ Criando um scroll e responsividade com o menu - [Veja Aqui](https://github.com/wevdiaz/Atividades_Javascript/tree/main/exercises/Scroll_Section)
+
