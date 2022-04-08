@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color: rgb(17, 86, 102);
+  --primary-color: #fa983a;
   --primary-color-darker: rgb(9, 48, 56);
+  --color-cpf: #1e3799;
+  --color-h1: #e58e26;
 }
 
 * {
@@ -24,6 +26,9 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
+
+  box-shadow: 1px 1px 8px -2px rgba(0, 0, 0, 0.6);
+
 }
 
 form input, form label, form button {
@@ -55,4 +60,18 @@ form button {
 
 form button:hover {
   background: var(--primary-color-darker);
+}
+
+.container h1 {
+  font-size: 40px;
+  margin-bottom: 64px;
+  text-align: center;
+  color: var(--color-h1);
+}
+
+.cpf-gerado {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--color-cpf);
+  text-align: center;
 }
