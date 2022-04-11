@@ -49,3 +49,8 @@
  **Scroll_Section**
  Criando um scroll e responsividade com o menu - [Veja Aqui](https://github.com/wevdiaz/Atividades_Javascript/tree/main/exercises/Scroll_Section)
 
+ ***
+
+ **Gerador_CPF**
+ Criando um gerador de CPF válido - [Veja Aqui](https://github.com/wevdiaz/Atividades_Javascript/tree/main/exercises/Gerador_CPF)
+
